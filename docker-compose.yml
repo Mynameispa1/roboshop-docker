@@ -67,7 +67,7 @@ services:
 
   payment:
     container_name: payment
-    image: payment:1
+    image: payment:v1
     depends_on:
     - rabbitmq
     - user
